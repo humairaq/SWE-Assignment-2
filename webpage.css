@@ -5,6 +5,7 @@ body {
     background-position: center;
     background-size:  cover;
     margin: 0px;
+    object-fit: scale-down;
 
 }
 
@@ -33,6 +34,7 @@ nav {
 
     grid-row-end: 2;
     grid-column-end: 4;
+    font-family: "Courier New";
 }
 footer {
     background-color: #231f1a;
@@ -45,7 +47,7 @@ footer {
 nav ul {
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
     overflow: hidden;
     background-color: #231f1a;
     position: center;
@@ -60,7 +62,7 @@ nav li a{
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 10px 15px;
+    padding: 10px 100px;
     text-decoration: none;
 
 }
@@ -138,16 +140,28 @@ img.hotel {
 }
 .button1{
     background-color: orange;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 0;
     border-radius: 10px;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    width: 60%;
+}
+
+.footer_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.column{
+    display:flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding: 1rem;
 }
 
 textarea{
@@ -159,8 +173,12 @@ textarea{
     text-align: left;
 
 }
-search {
-
-
+button {
+    background-color: lightgray;
+    width: 30%;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 5px;
 
 }
+
