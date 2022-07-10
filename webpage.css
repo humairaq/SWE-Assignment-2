@@ -1,14 +1,18 @@
 body {
-    background-image: url("images/sunset.jpg");
+    background-image: url("images/airplane.jpg");
+    image-rendering: optimizeQuality;
+    image-orientation: from-image;
     background-position: center;
+    background-size: cover;
     margin: 0px;
 }
 
+
 .wrapper{
-    width:1200px;
+    width:940px;
     margin: auto;
     border: none;
-    background-color: gray;
+    background-color: gainsboro;
     display:grid;
     border: outset black 1px;
     grid-template-rows: auto 1fr 1fr auto ;
@@ -88,7 +92,7 @@ img.lion_king {
     border-radius: 25px;
     grid-row-start: 3;
     grid-column-start: 1;
-
+    width: 262px;
     grid-row-end: 4;
     grid-column-end: 2;
     margin-left: 30px;
