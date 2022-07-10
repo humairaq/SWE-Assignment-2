@@ -3,28 +3,29 @@ body {
     image-rendering: optimizeQuality;
     image-orientation: from-image;
     background-position: center;
-    background-size: cover;
+    background-size:  cover;
     margin: 0px;
+
 }
 
 
 .wrapper{
-    width:940px;
+    max-width:1170px;
     margin: auto;
-    border: none;
-    background-color: gainsboro;
+    background-color: #cdb698;
     display:grid;
-    border: outset black 1px;
+    border: outset black 2px;
     grid-template-rows: auto 1fr 1fr auto ;
     grid-template-columns: 1fr 1fr 1fr ;
     gap: 0px;
     height: 100%;
 
+
 }
 
 
 nav {
-    background-color: black;
+    background-color: #231f1a;
     color: #ffffff;
 
     grid-row-start: 1;
@@ -34,7 +35,7 @@ nav {
     grid-column-end: 4;
 }
 footer {
-    background-color: black;
+    background-color: #231f1a;
     color: #ffffff;
     grid-row-start: 4;
     grid-column-start: 1;
@@ -46,7 +47,7 @@ nav ul {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: black;
+    background-color: #231f1a;
     position: center;
     text-align: center;
 
@@ -76,7 +77,7 @@ iframe{
 
     background-color: white;
     width: 300px;
-    border: 10px solid hotpink;
+    border: 5px solid hotpink;
     margin-top:50px;
     margin-bottom:50px;
     grid-row-start: 2;
@@ -87,7 +88,7 @@ iframe{
 
 
 }
-img.lion_king {
+img.hotel {
     border: solid black 1px;
     border-radius: 25px;
     grid-row-start: 3;
